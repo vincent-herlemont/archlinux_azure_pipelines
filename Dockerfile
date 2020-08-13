@@ -5,8 +5,11 @@ FROM archlinux/base
 
 RUN pacman -Syu --noconfirm \
   vim \
+  tree \
+  base-devel \
   git \
   openssl \
+  openssh \
   nodejs \
   readline \
   shadow \
